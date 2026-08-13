@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Add New Product</h2>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" id="pName" placeholder="Enter Product Name">
+            
+            <label>Image URL</label>
+            <input type="text" id="pImg" placeholder="https://image-link.com">
+            
+            <label>Description</label>
+            <textarea id="pDesc" placeholder="Short description..."></textarea>
+            
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+
+        <hr>
+        <h2>Product Catalog</h2>
+        <div id="catalog" class="catalog-grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
